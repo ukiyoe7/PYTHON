@@ -46,4 +46,4 @@ except AttributeError:
     # Fallback to response.text if generations not available
     print(response.text)
 
-    ## THIS CODE IS GREATE
+    ## THIS CODE IS GRE

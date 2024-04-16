@@ -36,6 +36,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 
-
-## this is a new file
+# Display classification report
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=iris.target_names))
 
